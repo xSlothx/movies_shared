@@ -12,7 +12,7 @@ CREATE TABLE [dbo].[CustomerData2] (
 		[ContinentName]         [nvarchar](50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 		[BirthDate]             [datetime] NULL,
 		[CityName]              [nvarchar](50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
-		[RegionCountryName]     [nvarchar](55) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+		[RegionCountryName]     [nvarchar](60) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
 ) ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[CustomerData2] SET (LOCK_ESCALATION = TABLE)
