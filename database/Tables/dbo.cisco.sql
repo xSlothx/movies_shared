@@ -8,7 +8,7 @@ CREATE TABLE [dbo].[cisco] (
 		[ContinentName]         [nvarchar](50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 		[CityName]              [nvarchar](50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 		[StateProvinceName]     [nvarchar](57) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
-		[RegionCountryName]     [nvarchar](50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+		[RegionCountryName]     [nvarchar](60) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 		[ETLLoadID]             [int] NULL,
 		[LoadDate]              [datetime] NULL,
 		[UpdateDate]            [datetime] NULL,
